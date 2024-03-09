@@ -1,0 +1,1758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpIrItEd - Create & Manage Tournament</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <div class="social-wrapper">
+
+          <p class="social-title">Follow us on :</p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom skewBg" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">SpIrItEd</a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="http://127.0.0.1:5501/index.html" class="navbar-link skewBg" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="http://127.0.0.1:5501/Rules/RULES.html" class="navbar-link skewBg" data-nav-link>Rules</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="http://127.0.0.1:5501/Services/EVENTS.html" class="navbar-link skewBg" data-nav-link>Features</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="http://127.0.0.1:5501/Signup-form.html?" class="navbar-link skewBg" data-nav-link>Signup</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="http://127.0.0.1:5501/Login-form.html" class="navbar-link skewBg" data-nav-link>Login</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="http://127.0.0.1:5501/About.html" class="navbar-link skewBg" data-nav-link>About</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+
+
+          <button class="search-btn" aria-label="open search" data-search-toggler>
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+            <ion-icon name="menu-outline" class="menu"></ion-icon>
+            <ion-icon name="close-outline" class="close"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-box>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" aria-label="search" placeholder="Search here..." class="search-field">
+
+      <button class="search-submit" aria-label="submit search" data-search-toggler>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+
+      <button class="search-close" aria-label="close search" data-search-toggler></button>
+    </div>
+
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle"> Gaming-Tournament</p>
+
+            <h1 class="h1 hero-title">
+              Create &<span class="span">Manage</span>Tournament
+            </h1>
+
+            <p class="hero-text">
+              Failure doesn't mean the game is over, it means try again with experience.
+            </p>
+
+            <button class="btn skewBg">Read More</button>
+
+          </div>
+
+          <figure class="hero-banner img-holder" style="--width: 700; --height: 700;">
+            <img src="./assets/images/gtavcharac-removebg-preview.png" width="700" height="700" alt="hero banner" class="w-100" style="border: transpatent;">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BRAND
+      -->
+
+      <section class="section brand" aria-label="brand">
+        <div class="container">
+
+          <ul class="has-scrollbar">
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-1.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-2.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-3.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-4.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-5.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/brand-6.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <div class="section-wrapper">
+
+        <!-- 
+          - #LATEST GAME
+        -->
+
+        <section class="section latest-game" aria-label="latest game">
+          <div class="container">
+
+            <p class="section-subtitle">Catogaries</p>
+
+            <h2 class="h2 section-title">
+              Create & <span class="span">Manage</span>
+            </h2>
+
+            <ul class="has-scrollbar">
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="./readme-images/horror2.jpg" width="400" height="470" loading="lazy"
+                      alt="Dead BY Daylight" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge skewBg">Horror</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Dead BY Daylight <span class="span">Daily</span></a>
+                    </h3>
+
+                    <p class="card-price">
+                      Entry Fee : <span class="span">Free</span>
+                    </p>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="./readme-images/adventure1.jpg" width="400" height="470" loading="lazy"
+                      alt="Dragon Killer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge skewBg">Adventure</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Dragon Killer <span class="span">II</span></a>
+                    </h3>
+
+                    <p class="card-price">
+                      Entry Fee : <span class="span">Rs:25.00</span>
+                    </p>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="./readme-images/action.jpg" width="400" height="470" loading="lazy"
+                      alt="God Of War-4" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge skewBg">Action</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">God Of War-4 <span class="span">Daily</span></a>
+                    </h3>
+
+                    <p class="card-price">
+                      Entry Fee : <span class="span">Rs:25.00</span>
+                    </p>
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+        </section>
+
+
+
+
+
+        <!-- 
+          - #LIVE MATCH
+        -->
+
+        <section class="section live-match" id="live" aria-label="live match">
+          <div class="container">
+
+            <h2 class="h2 section-title">
+              Watch Live <span class="span">Tournament</span>
+            </h2>
+
+            <figure class="live-match-banner img-holder" style="--width: 800; --height: 470;">
+
+              <img src="./assets/images/esports.jpg" width="800" height="470" loading="lazy"
+                alt="Live Match Video" class="img-cover">
+
+              <button class="play-btn" aria-label="play video">
+                <ion-icon name="play"></ion-icon>
+              </button>
+
+            </figure>
+
+            <div class="live-match-player">
+
+              <figure class="player player-1 img-holder" style="--width: 406; --height: 277;">
+                <img src="./assets/images/cobra.jpg" width="406" height="277" loading="lazy"
+                  alt="Cobra Team" class="w-100">
+              </figure>
+
+              <div class="live-match-detail">
+
+                <p class="live-match-subtitle">Participants</p>
+
+                <time class="live-match-time" datetime="08:30">Vs</time>
+
+              </div>
+
+              <figure class="player player-2 img-holder" style="--width: 400; --height: 305;">
+                <img src="./assets/images/cheetah.jpg" width="400" height="305" loading="lazy"
+                  alt="cheetah Killers" class="w-100">
+              </figure>
+
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+
+
+
+
+
+      <!-- 
+        - #FEATURED GAME
+      -->
+
+      <section class="section featured-game" id="features" aria-label="featured game">
+
+
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Devices <span class="span">Catogaries</span>
+          </h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/pc-1.jpeg" width="450" height="600" loading="lazy"
+                    alt="Witcher-3" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                     Witcher-3<span class="span">Wild Hunt</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">PC,Playstation 5, Xbox</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/Pcico.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">Witcher Wild</p> <span class="span">Hunt</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">PC,Playstation 5, Xbox</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/console-1.jpg" width="450" height="600" loading="lazy"
+                    alt="Days Gone" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                      DaysGone <span class="span">Gone</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Playstation 5,PC, Xbox</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/Consoleico.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">DaysGone</p><span class="span">Daily</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Playstation 5,Pc, Xbox</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/console-2.jpg" width="450" height="600" loading="lazy"
+                    alt="Uncharted" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                      Uncharted <span class="span">LastLagacy</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Pc,Playstation 5, Xbox</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/Pcico.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">Uncharted</p><span class="span">Last Legacy</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">PC,Playstation 5, Xbox</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/mob-1.jpeg" width="450" height="600" loading="lazy"
+                    alt="PUBG" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                      PUBG <span class="span">BattleGround</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Mobile,Playstation 5, Xbox</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/Mobileico.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">PUBG</p> <span class="span">BattleGround</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Mobile,Playstation 5, Xbox</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <!-- Second Section -->
+
+        <div class="container">
+          <!-- Set2 -->
+          <h2 class="h2 section-title">
+            Devices <span class="span" style="color:red; margin-top: 20px;">Catogaries-Mobile</span>
+          </h2>
+
+
+
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./images/COD.jpg" width="450" height="600" loading="lazy"
+                    alt="Witcher-3" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                    Call Of <span class="span">Duty✨</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Mobile, Iphone</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/Mobileico.png" width="36" height="61" loading="lazy" alt=""
+                  class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">Call Of Duty</p> <span class="span">Hunter</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Mobile, Iphone</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="/assets/images/ff2.jfif" width="450" height="600" loading="lazy"
+                    alt="Days Gone" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                     Free-Fire <span class="span">Mobile</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Mobile,Iphone</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/Mobileico.png" width="36" height="61" loading="lazy" alt=""
+                  class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">Free-Fire</p><span class="span">Contest</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Mobile,Iphone</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/ffmax2.png" width="450" height="600" loading="lazy"
+                    alt="Uncharted" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                      Free-Fire <span class="span">Max</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Mobile,Iphone</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/Mobileico.png" width="36" height="61" loading="lazy" alt=""
+                  class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">Free-Fire</p><span class="span">Big-Shot</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Mobile,Iphone</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/bgmi.png" width="450" height="600" loading="lazy"
+                    alt="PUBG" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                      BGMI <span class="span">BattleGround</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Mobile,Iphone</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/Mobileico.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">BGMI</p> <span class="span">BattleGround</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Mobile,Iphone</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- Set-2 End -->
+
+
+
+
+
+
+
+
+        <!-- Third Section -->
+
+        <div class="container">
+          <!-- Set-3 -->
+          <h2 class="h2 section-title">
+            Devices <span class="span" style="color:red; margin-top: 20px;">Catogaries-PC</span>
+          </h2>
+
+
+
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/rc.jpg" width="450" height="600" loading="lazy"
+                    alt="Witcher-3" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                    Rogue <span class="span">Company✨</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">PC</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/Pcico.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">Rogue</p> <span class="span">Comapany</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">PC</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="/assets/images/valorent.jpg" width="450" height="600" loading="lazy"
+                    alt="Days Gone" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                      valorent <span class="span">PC</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">PC</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/Pcico.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">valorent</p><span class="span">Fighter</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">PC</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/fornite.jpg" width="450" height="600" loading="lazy"
+                    alt="Uncharted" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                      Fornite <span class="span">Update</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">PC</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/Pcico.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">Fornite</p><span class="span">Update</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">PC</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/GTAV.jpg" width="450" height="600" loading="lazy"
+                    alt="PUBG" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                     GTAV <span class="span">Online</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">PC</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/Pcico.png" width="36" height="61" loading="lazy" alt=""
+                  class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">GTAV</p> <span class="span">Online</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">PC</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- Set-3 End -->
+
+
+
+
+         <!-- Fourth Section -->
+
+         <div class="container">
+          <!-- Set-4 -->
+          <h2 class="h2 section-title">
+            Devices <span class="span" style="color:red; margin-top: 20px;">Catogaries-Console</span>
+          </h2>
+
+
+
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/apexl.jpg" width="450" height="600" loading="lazy"
+                    alt="Witcher-3" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                   Apex<span class="span">Legends✨</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Console</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/controller3.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">Apex-Legends</p> <span class="span">Hit-to-hard</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Console</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="/assets/images/valorent.jpg" width="450" height="600" loading="lazy"
+                    alt="Days Gone" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                      valorent <span class="span">Console</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Console</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/controller3.png" width="36" height="61" loading="lazy" alt=""
+                  class="card-icon">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">valorent</p><span class="span">Fighter</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Console</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/fornite.jpg" width="450" height="600" loading="lazy"
+                    alt="Uncharted" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                      Fornite <span class="span">Update</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Console</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/controller3.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">Fornite</p><span class="span">Update</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Console</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/GTAV.jpg" width="450" height="600" loading="lazy"
+                    alt="PUBG" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                     GTAV <span class="span">Online</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Console</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                   <img src="./assets/images/controller3.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      <p style="color:yellow; text-align: center;">GTAV</p> <span class="span">Online</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Console</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- Set-4 End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SHOP
+      -->
+
+      <section class="section shop" id="shop" aria-label="shop"
+        style="background-image: url('./assets/images/shop-bg.jpg')">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Gaming<span class="span">Rewards</span>
+          </h2>
+
+          <p class="section-text">
+            GET REWARDS. Earn free skins by watching PCS3! Link your PUBG and YouTube accounts, enable drops, then tune in live during the PCS3 broadcast on YouTube
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                  <img src="./assets/images/keyand mouse.jpg" width="300" height="260" loading="lazy"
+                    alt="Gaming Keyboard & Mouse" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">Gaming Keyboard & Mouse</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Gaming Keyboard & Mouse</a>
+                  </h3>
+
+                  <div class="card-wrapper">
+                    <p class="card-price">Rs:1049</p>
+
+                    <button class="card-btn">
+                      <ion-icon name="basket"></ion-icon>
+                    </button>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                  <img src="./assets/images/controller.jpg" width="300" height="260" loading="lazy"
+                    alt="Gears 5 Xbox Controller" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">PS-5</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">PS-5  Controller</a>
+                  </h3>
+
+                  <div class="card-wrapper">
+                    <p class="card-price">Rs:2400</p>
+
+                    <button class="card-btn">
+                      <ion-icon name="basket"></ion-icon>
+                    </button>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                  <img src="./assets/images/Gc.jpg" width="300" height="260" loading="lazy"
+                    alt="GeForce GTX 1050ti" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">Graphics</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">GeForce GTX 1050ti</a>
+                  </h3>
+
+                  <div class="card-wrapper">
+                    <p class="card-price">Rs:14,000</p>
+
+                    <button class="card-btn">
+                      <ion-icon name="basket"></ion-icon>
+                    </button>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                  <img src="./assets/images/Gmouse.jpg" width="300" height="260" loading="lazy"
+                    alt="Logitech-Mouse" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">Logitech-Mouse</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Logitech- GamingMouse</a>
+                  </h3>
+
+                  <div class="card-wrapper">
+                    <p class="card-price">Rs:1800</p>
+
+                    <button class="card-btn">
+                      <ion-icon name="basket"></ion-icon>
+                    </button>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Latest News & <span class="span">Articles</span>
+          </h2>
+
+          <p class="section-text">
+            Inside The Studio is a new series showing all the behind-the-scenes work that goes into bringing Apex's legends to life
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/GTA6.jpg" width="400" height="290" loading="lazy"
+                    alt="Gt-6" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time datetime="2022-09-19" class="item-text">September 19, 2022</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="#" class="card-title">GTA-VI Video</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Apparently, Rockstar plans to update the map with more cities and interior locations after release, mainly to give developers more breathing room and to cut down on overtime while GTA 6 is being worked on. According to Bloomberg, there will be new missions and new map areas added "on a regular basis"
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/fornite.jpg" width="400" height="290" loading="lazy" alt="Modern Warfare-2"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time datetime="2022-09-19" class="item-text">September 09, 2022</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="#" class="card-title">Fortnite-Pc</a>
+                  </h3>
+
+                  <p class="card-text">
+                    The Entertainment Software Ratings Board rates Fortnite “T” for teen, which means ages 13 and up. Common Sense Media, an Understood founding partner, also recommends the game for kids 13 and up, because of its action violence and open chat. This is a good starting point.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/valorent2.jpg" width="400" height="290" loading="lazy"
+                    alt="Sea Of Thieves Return Of The Damned" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time datetime="2022-09-19" class="item-text">October 14, 2022</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="#" class="card-title">Defense Of The Ancients</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Is VALORANT on Xbox and PlayStation? Interestingly enough, VALORANT is currently on the Game Pass. Still, it's only available on the PC. You cannot play VALORANT on Xbox or PlayStation at this time.
+                  </p>
+
+              
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <div class="newsletter-card">
+
+            <h2 class="h2">
+              SpIrItEd<span class="span">Report</span>
+            </h2>
+
+            <form action="" class="newsletter-form">
+
+              <div class="input-wrapper skewBg">
+                <input type="email" name="email_address" aria-label="email" placeholder="Enter your email..." required
+                  class="email-field">
+
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <button type="submit" class="btn newsletter-btn skewBg">
+                <span class="span">Send</span>
+
+                <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">SpIrItEd</a>
+
+          <p class="footer-text">
+            The healthy human mind doesn't wake up in the morning thinking this is its last day on Earth.
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="location"></ion-icon>
+              </div>
+
+              <address class="item-text">
+                Address :Chennai neelangaraiXXX
+              </address>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="headset"></ion-icon>
+              </div>
+
+              <a href="tel:+916985711589" class="item-text">Phone : +91-6985711589</a>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="mail-open"></ion-icon>
+              </div>
+
+              <a href="mailto:Spirited123@gmail.com" class="item-text">Email : Spirited123@gmail.com</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <!-- <li>
+            <p class="footer-list-title">Products</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Graphics (26)</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Backgrounds (11)</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Fonts (9)</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Music (3)</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Photography (3)</a>
+          </li>
+
+        </ul> -->
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Need Help?</p>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li> -->
+
+          <li>
+            <a href="http://127.0.0.1:5501/pricacy%20policy.html" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Affiliate</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Use Cases</a>
+          </li> -->
+
+        </ul>
+
+        <div class="footer-wrapper">
+
+          <div class="social-wrapper">
+
+            <p class="footer-list-title">Follow Us</p>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #3b5998">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #55acee">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <!-- <li>
+                <a href="#" class="social-link" style="background-color: #d71e18">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li> -->
+
+              <!-- <li>
+                <a href="#" class="social-link" style="background-color: #1565c0">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li> -->
+
+            </ul>
+
+          </div>
+
+          <div class="footer-newsletter">
+
+            <p class="footer-list-title">SpIrItEdReport Sign Up</p>
+
+            <form action="" class="footer-newsletter">
+              <input type="email" name="email_address" aria-label="email" placeholder="Enter your email" required
+                class="email-field">
+
+              <button type="submit" class="footer-btn" aria-label="submit">
+                <ion-icon name="rocket"></ion-icon>
+              </button>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <img src="./assets/images/footer-bottom-img.png" width="340" height="21" loading="lazy" alt=""
+          class="footer-bottom-img">
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
